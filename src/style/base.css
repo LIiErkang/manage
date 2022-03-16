@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.5px;
+}
+
+img {
+	vertical-align: top;
+}
+
+#app {
+	width: 100vw;
+	height: 100vh;
+
+	background-color: #eee;
+
+	position: relative;
+}
+
+#app .flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#app .el-button {
+	letter-spacing: 1px !important;
+}
+
+.el-tag {
+	user-select: none;
+}
+
+.father-leave {
+	position: absolute;
+	display: none;
+}
+
+.father-enter {
+	position: absolute;
+	transform: translateX(-5%);
+	opacity: 0;
+}
+
+.father-enter-active {
+	transition: opacity 0.4s ease-in, transform 0.2s ease;
+}
+
+.father-enter-to {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.page-base-card {
+	width: auto;
+}

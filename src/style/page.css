@@ -1,0 +1,67 @@
+.el-container,
+.el-header,
+.el-aside,
+.el-main,
+.el-container .header {
+	width: 100%;
+	height: 100%;
+}
+
+.el-container {
+	overflow: auto;
+}
+
+.el-aside {
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+	height: 100%;
+}
+
+.el-header {
+	padding: 0 !important;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.el-container .header {
+	display: flex;
+
+	background-color: #fff;
+}
+
+.el-container .header > div {
+	flex: 1;
+
+	margin: 0 30px;
+	display: flex;
+	align-items: center;
+}
+
+.page-header-button {
+	justify-content: flex-end;
+}
+
+.el-container .header img {
+	height: 80%;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+	width: 200px;
+}
+
+.page-base-card {
+	margin-top: 15px;
+}
+
+.roles-row {
+	border-bottom: 1px solid #eee;
+}
+
+.border-top {
+	border-top: 1px solid #eee;
+}
+
+.el-tag {
+	margin: 10px;
+}
